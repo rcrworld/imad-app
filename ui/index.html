@@ -2,6 +2,21 @@
 <html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+       $("#div1").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+        
+    $("button").click(function(){
+        
+    });
+});
+</script>
     </head>
     <body>
         <div class="corner">
@@ -18,6 +33,12 @@ Click me to display Date and Time.</button> <br><br>
             
             <p id="demo"></p>
         </div>
+        
+        <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+        <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+        <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+        
+        
         <script type="text/javascript" src="/ui/main.js">
         </script>
     </body>
