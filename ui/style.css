@@ -38,4 +38,7 @@ body {
     cursor: pointer;
 } 
 
-#div:hover{opacity:0.5;}
+a:link {
+ color:#fafafa;   
+
+}
