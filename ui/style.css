@@ -36,4 +36,6 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}    
+} 
+
+#div:hover{opacity:0.5;}
