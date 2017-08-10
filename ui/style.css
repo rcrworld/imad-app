@@ -54,3 +54,5 @@ width:30%;height:80px;display:none;background-color:green;float:left;margin-righ
 #div3 {
 width:30%;height:80px;display:none;background-color:blue;float:left;margin-right:5px;    
 }
+
+#div1:hover,#div2:hover,#div3:hover{opacity:0.5;}
