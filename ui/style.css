@@ -42,3 +42,7 @@ a:link,a:visited {
  color:#fafafa;   
 
 }
+
+#div1 {
+ width:30%;height:80px;display:none;background-color:red;float:left;margin-right:5px;   
+}
