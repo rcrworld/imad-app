@@ -46,3 +46,11 @@ a:link,a:visited {
 #div1 {
  width:30%;height:80px;display:none;background-color:red;float:left;margin-right:5px;   
 }
+
+#div2 {
+width:30%;height:80px;display:none;background-color:green;float:left;margin-right:5px;   
+}
+
+#div3 {
+width:30%;height:80px;display:none;background-color:blue;float:left;margin-right:5px;    
+}
