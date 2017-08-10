@@ -38,7 +38,7 @@ body {
     cursor: pointer;
 } 
 
-a:link {
+a:link,a:visited {
  color:#fafafa;   
 
 }
