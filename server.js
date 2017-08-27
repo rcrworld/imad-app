@@ -14,7 +14,7 @@ var config = {
 }
 
 
-app.get('/test-db', function(req,res){
+app.get('/rcrchit', function(req,res){
     pool.query('SELECT * FROM user',function(err,res) {
      if(err) {
          res.status(500).send(err.toString());
