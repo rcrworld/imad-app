@@ -1,6 +1,8 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
+var app = express();
+app.use(morgan('combined'));
 
 var Pool = require('pg').Pool;
 
@@ -26,8 +28,7 @@ app.get('/user-db', function(req,res){
     });
 });
 
-var app = express();
-app.use(morgan('combined'));
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
