@@ -33,7 +33,7 @@ app.get('/test-db', function(req,res){
 
 var articles = {
     'article-one' : {
-    title : 'Article one i kanth',
+    title : 'Article one of RCR',
     heading : 'Article one',
     date : 'sep14,2017',
     content : `
@@ -51,7 +51,7 @@ var articles = {
               </p>`
               },
               'article-two' : {
-                title : 'Article two i kanth',
+                title : 'Article two of RCR',
                 heading : 'Article two',
                 date : 'sep11,2017',
                 content : 
@@ -60,7 +60,7 @@ var articles = {
                 </p>`
               },
               'article-three' : {
-                title : 'Article three i kanth',
+                title : 'Article three of RCR',
                 heading : 'Article three',
                 date : 'sep9,2017',
                 content : 
