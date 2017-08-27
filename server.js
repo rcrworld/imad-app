@@ -8,9 +8,9 @@ var config = {
     
     host: 'db.imad.hasura-app.io',
     user: 'rcrchit',
-    password: 'db-rcrchit-24123',
     database: 'rcrchit',
     port: '5432',
+    password: process.env.DB_PASSWORD
 }
 
 
