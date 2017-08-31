@@ -105,6 +105,13 @@ var htmlTemplate= `
     return htmlTemplate;
     }
 
+app.get('/:articleName',function (req,res) {
+    var articleName = req.query.articleName;
+    res.send(createTemplate(articles[articleName]));
+    });
+ app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
 
 
 app.get('/', function (req, res) {
